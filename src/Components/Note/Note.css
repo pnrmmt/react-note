@@ -28,6 +28,6 @@
   opacity: 0;
   transition: 300ms;
 }
-.note_footer img:hover{
+ .note:hover .note_footer img{
   opacity: 1;
 }
