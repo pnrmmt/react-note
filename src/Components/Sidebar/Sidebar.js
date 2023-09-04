@@ -4,7 +4,7 @@ import "./Sidebar.css"
 
 function Sidebar(props) {
 
-  const colors=["#fe9b72", "#fec971","#00d4fe","#b693fd","#e4ee91"]
+  const colors=["#91057a", "#00aa9c","#d34a00","#ed5072","#81ea00"]
 
   const [listOpen, setListOpen]=useState(false)
   return (
