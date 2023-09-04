@@ -15,7 +15,7 @@ function NoteContainer(props) {
   const notes=reverArray(props.notes)
   return (
     <div className='note-container'>
-      <h2>Notes</h2>
+      <h2>NotesApp</h2>
       <div className='note-container_notes custom-scroll'>
         {
           notes.map((item)=>  <Note key={item.id} note={item} deleteNote={props.deleteNote} />)
